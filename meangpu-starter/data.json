@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "Feature-Games",
+      "path": "/feature-games"
+    },
+    {
+      "name": "All-Games",
+      "path": "/all-games"
+    },
+    {
+      "name": "About",
+      "path": "/about"
+    }
+  ]
+}
