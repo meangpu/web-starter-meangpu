@@ -1,13 +1,15 @@
-nav {
+.main-nav {
   height: 5rem;
   width: 100vw;
-  background-color: var(--color-primary);
+  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: var(--color-primary); */
   display: grid;
   place-items: center;
   /* position: fixed; */
   top: 0;
   left: 0;
   z-index: 99;
+  backdrop-filter: blur(15px);
 }
 
 .nav__toggle-btn {
@@ -23,6 +25,7 @@ nav {
 }
 
 .nav__links {
+  font-weight: bolder;
   display: flex;
   gap: 3.5rem;
   align-items: center;
@@ -45,7 +48,6 @@ nav {
   width: 1.2rem;
   height: 1.2rem;
   background-color: var(--color-primary);
-  /* background-color: red; */
   position: absolute;
   left: calc(50% - 0.5rem);
   transform: rotate(45deg);

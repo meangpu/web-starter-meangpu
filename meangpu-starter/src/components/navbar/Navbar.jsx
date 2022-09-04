@@ -2,13 +2,13 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import React from "react";
 import { links } from "../../../data.json";
-// import { GoThreeBars } from "react-icons/go";
+import { GoThreeBars } from "react-icons/go";
 import "./Navbar.css";
 
 const Navbar = () => {
   // const [isNavShowing, setIsNavShowing] = useState(true);
   return (
-    <nav>
+    <nav className='main-nav'>
       <div className='container nav__container'>
         <ul className='nav__links'>
           {links.map(({ name, path }, index) => {
