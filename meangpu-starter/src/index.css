@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
 *,
 *::before,
 *::after {
@@ -11,44 +12,24 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #171717;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
-  /* --color-primary: hsl(var(--primary-hue), 100%, 50%);
-  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%); */
-
+  --color-secondary: #ffb116;
   --color-white: #fff;
   --color--light: rgba(255, 255, 255, 0.6);
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
-  --transition: all 400ms ease;
-
-  /* --primary-hue: 210; */
-  --gray-hue: 240;
-  /* --color-primary: hsl(var(--primary-hue), 100%, 50%);
-  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%); */
-  --color-secondary: #ffb116;
-  --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
-  --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
-  --color-gray-300: hsl(var(--gray-hue), 24%, 64%);
-  --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
-  --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
-  --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
-
-  --container-width-lg: 80%;
-  --container-widht-md: 90%;
-
-  --transition: all 500ms ease;
+  --transition: all 230ms ease;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--color-bg);
   color: var(--color-white);
-  /* font-family: "Montserrat", sans-serif; */
   line-height: 1.7;
   overflow-x: hidden;
 }
@@ -60,11 +41,31 @@ body {
 }
 
 a {
-  color: var(--color-gray-100);
+  color: var(--color--light);
 }
 
 img {
   display: block;
   object-fit: cover;
   width: 100%;
+}
+
+/* ============== med devices(ipad) ============== */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* ============== small devices(phone) ============== */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 6rem;
+  }
 }

@@ -5,12 +5,12 @@
       "path": "/"
     },
     {
-      "name": "Feature-Games",
-      "path": "/feature-games"
+      "name": "Job",
+      "path": "/job"
     },
     {
-      "name": "All-Games",
-      "path": "/all-games"
+      "name": "Contact",
+      "path": "/contact"
     },
     {
       "name": "About",

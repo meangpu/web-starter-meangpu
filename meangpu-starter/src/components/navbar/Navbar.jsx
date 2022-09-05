@@ -3,6 +3,7 @@ import { useState } from "react";
 import React from "react";
 import { links } from "../../../data.json";
 import { GoThreeBars } from "react-icons/go";
+import logo from "../../img/icon.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -10,6 +11,9 @@ const Navbar = () => {
   return (
     <nav className='main-nav'>
       <div className='container nav__container'>
+        <Link to='/' className='logo nav__links'>
+          <img src={logo} alt='nav logo' />
+        </Link>
         <ul className='nav__links'>
           {links.map(({ name, path }, index) => {
             return (
