@@ -7,7 +7,7 @@ import logo from "../../img/icon.png";
 import "./Navbar.css";
 
 const Navbar = () => {
-  // const [isNavShowing, setIsNavShowing] = useState(true);
+  const [isNavShowing, setIsNavShowing] = useState(true);
   return (
     <nav className='main-nav'>
       <div className='container nav__container'>
