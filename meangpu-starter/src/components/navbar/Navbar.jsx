@@ -31,6 +31,7 @@ const Navbar = () => {
           })}
         </ul>
         <button
+          aria-label='nav btn'
           className='nav__toggle-btn'
           onClick={() => setIsNavShowing(!isNavShowing)}
         >
