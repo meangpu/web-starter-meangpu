@@ -7,15 +7,9 @@ need to add 3 thing
 add basename="/reposName/" into router also // in `app.jsx` component
 <BrowserRouter basename='/web-starter-meangpu/'>
 
-### second
-
-```
-"homepage": "https://meangpu.github.io/",
-```
-
 to **package.json**
 
-### third
+### second
 
 Fortunately, there is a very easy fix for this. Add the following line in **vite.config.js**:
 
@@ -30,6 +24,14 @@ export default defineConfig({
 })
 
 ```
+
+### NotNeed?
+
+```
+"homepage": "https://meangpu.github.io/",
+```
+
+---
 
 decided to create template for easier life make it contain
 
