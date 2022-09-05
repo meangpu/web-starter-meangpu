@@ -1,6 +1,14 @@
 # web-starter-meangpu
 
-need to add 3 thing
+## DO THIS
+
+### IMPORTAN
+
+change this line in `4o4.html` the only time it should be `0` is when use my default repos like `meangpu.github.io`
+
+```js
+var pathSegmentsToKeep = 1;
+```
 
 ### first
 

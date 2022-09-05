@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://meangpu.github.io/web-starter-meangpu",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
