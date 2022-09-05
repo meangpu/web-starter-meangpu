@@ -10,7 +10,7 @@ import Contact from "./pages/contact/contact";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/web-starter-meangpu/'>
       {/* <NavbarBottom /> */}
       <NavbarTop />
       <Routes>
