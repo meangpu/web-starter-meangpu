@@ -2,7 +2,7 @@
 
 ## DO THIS
 
-### IMPORTAN
+### 1
 
 change this line in `4o4.html` the only time it should be `0` is when use my default repos like `meangpu.github.io`
 
@@ -10,13 +10,15 @@ change this line in `4o4.html` the only time it should be `0` is when use my def
 var pathSegmentsToKeep = 1;
 ```
 
-### first
+### 2
 
+this will correct path in `addressbar`
 add basename="/reposName/" into router also // in `app.jsx` component
 <BrowserRouter basename='/web-starter-meangpu/'>
 
-### second
+### 3
 
+This will make page load and `find all asset` without this page won't even load
 Fortunately, there is a very easy fix for this. Add the following line in **vite.config.js**:
 
 ```js
@@ -31,7 +33,9 @@ export default defineConfig({
 
 ```
 
-### NotNeed?
+### NotNeed
+
+not sure if will be need in some case
 
 ```json
 "homepage": "https://meangpu.github.io/",
