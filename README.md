@@ -7,13 +7,11 @@ need to add 3 thing
 add basename="/reposName/" into router also // in `app.jsx` component
 <BrowserRouter basename='/web-starter-meangpu/'>
 
-to **package.json**
-
 ### second
 
 Fortunately, there is a very easy fix for this. Add the following line in **vite.config.js**:
 
-```
+```js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -27,9 +25,11 @@ export default defineConfig({
 
 ### NotNeed?
 
-```
+```json
 "homepage": "https://meangpu.github.io/",
 ```
+
+to `package.json`
 
 ---
 
