@@ -28,12 +28,12 @@ const Navbar = () => {
             );
           })}
         </ul>
-        {/* <button
-          className="nav__toggle-btn"
+        <button
+          className='nav__toggle-btn'
           onClick={() => setIsNavShowing(!isNavShowing)}
         >
           <GoThreeBars />
-        </button> */}
+        </button>
       </div>
     </nav>
   );
