@@ -1,6 +1,13 @@
 # web-starter-meangpu
 
-need to add 2 thing
+need to add 3 thing
+
+### first
+
+add basename="/reposName/" into router also // in `app.jsx` component
+<BrowserRouter basename='/web-starter-meangpu/'>
+
+### second
 
 ```
 "homepage": "https://meangpu.github.io/",
@@ -8,7 +15,7 @@ need to add 2 thing
 
 to **package.json**
 
----
+### third
 
 Fortunately, there is a very easy fix for this. Add the following line in **vite.config.js**:
 
