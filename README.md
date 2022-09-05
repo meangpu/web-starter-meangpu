@@ -33,6 +33,16 @@ to `package.json`
 
 ---
 
+### betterbuild
+
+add this line to `vite.config.js` to make it build to another folder
+
+```js
+  build: {
+    outDir: "../docs",
+  },
+```
+
 decided to create template for easier life make it contain
 
 - navbar
