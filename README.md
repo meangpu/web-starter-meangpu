@@ -2,6 +2,12 @@
 
 ## DO THIS
 
+### 0. Install These
+
+- nodejs
+- use `npm install vite` in terminal
+- use `npm run dev`
+
 ### 1. 404.html
 
 change this line in `4o4.html` the only time it should be `0` is when use my default repos like `meangpu.github.io`
@@ -10,9 +16,9 @@ change this line in `4o4.html` the only time it should be `0` is when use my def
 var pathSegmentsToKeep = 1;
 ```
 
-### 2. Router for addressbar
+### 2. Router for address bar
 
-this will correct path in `addressbar`
+this will correct path in `address bar`
 add basename="/reposName/" into router also // in `app.jsx` component
 <BrowserRouter basename='/web-starter-meangpu/'>
 
@@ -45,7 +51,7 @@ to `package.json`
 
 ---
 
-### betterbuild
+### better build
 
 add this line to `vite.config.js` to make it build to another folder
 
@@ -59,5 +65,5 @@ decided to create template for easier life make it contain
 
 - navbar
 - router
-- Datafetch
+- Data fetch
 - hero section
