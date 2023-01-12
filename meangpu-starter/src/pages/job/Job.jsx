@@ -2,7 +2,7 @@ import React from "react";
 import "./job.css";
 
 const Job = () => {
-  return <div className='container'>Job</div>;
+  return <section className='container'>Job</section>;
 };
 
 export default Job;

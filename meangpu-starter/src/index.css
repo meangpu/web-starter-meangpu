@@ -51,6 +51,21 @@ img {
   width: 100%;
   aspect-ratio: attr(width) / attr(height);
 }
+section {
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5,
+section > h3 {
+  text-align: center;
+  color: var(--color--light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
 
 /* ============== med devices(ipad) ============== */
 @media screen and (max-width: 1024px) {

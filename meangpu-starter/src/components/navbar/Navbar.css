@@ -1,15 +1,16 @@
 .main-nav {
-  /* width: 100vw; */
   /* background-color: var(--color-primary); */
   /* position: fixed; */
   height: 5rem;
-  width: 100%;
+  width: 100vw;
+  background: #17171772;
   display: grid;
   place-items: center;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(8px);
 }
 
 .nav__toggle-btn {
@@ -33,35 +34,25 @@
 
 .nav__links a {
   padding: 0.45em 0.55em;
-  border: 1px solid transparent;
-  border-radius: 2rem;
+  font-weight: 600;
   transition: var(--transition);
 }
 .nav__links a:hover {
   padding: 0.45em 0.55em;
-  border: 1px solid var(--color-white);
+  font-weight: bolder;
   color: var(--color-secondary);
+  text-shadow: 0px 0px 30px var(--color-secondary);
 }
 
 .active-nav {
   position: relative;
-  color: var(--color-light);
+  color: var(--color-primary);
+  font-weight: 900 !important;
 }
 
-/* .active-nav::after {
-  content: "";
-  display: block;
-  width: 1.2rem;
-  height: 1.2rem;
-  background-color: var(--color-primary);
-  position: absolute;
-  left: calc(50% - 0.5rem);
-  transform: rotate(45deg);
-  margin-top: 2.4rem;
-} */
-
 .logo {
-  width: 3rem;
+  display: flex;
+  width: 4rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -81,7 +72,9 @@
     flex-direction: column;
     gap: 0;
   }
-  .active-nav,
+  .active-nav {
+    position: relative;
+  }
   .active-nav::after {
     display: none;
   }
@@ -92,7 +85,7 @@
   }
 
   .nav__links li a {
-    background-color: var(--color-primary);
+    background: #171717c4;
     height: 100%;
     width: 100%;
     display: flex;
