@@ -12,7 +12,7 @@ jobs:
     - name: Pushes test file
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
-        API_TOKEN_GITHUB: ${{ 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 }}
+        API_TOKEN_GITHUB: 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
       with:
         source_file: 'dist'
         destination_repo: 'meangpu.github.io'
