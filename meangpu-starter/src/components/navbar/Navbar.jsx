@@ -1,10 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import React from "react";
-import { links } from "../../../data.json";
 import { GoThreeBars } from "react-icons/go";
-import logo from "../../img/icon.png";
+import { MdOutlineClose } from "react-icons/md";
+import logo from "../../assets/logo.png";
+import React from "react";
 import "./Navbar.css";
+import { links } from "../../../NavLink.json";
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);

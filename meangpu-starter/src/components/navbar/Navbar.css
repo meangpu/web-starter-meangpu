@@ -63,7 +63,7 @@
     cursor: pointer;
   }
   .nav__toggle-btn svg {
-    color: var(--color-gray-100);
+    color: white;
   }
   .nav__links {
     position: absolute;
